@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=fullSwordState
+comment1.params=sword
+comment1.target=fullSwordState(Sword)
+comment2.params=
+comment2.target=boolean\ hasFull()
+comment3.params=
+comment3.target=boolean\ hasHalf()
+comment4.params=
+comment4.target=boolean\ hasNoSword()
+comment5.params=
+comment5.target=void\ setState()
+comment6.params=
+comment6.target=void\ display()
+numComments=7

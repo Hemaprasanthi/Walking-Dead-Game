@@ -1,0 +1,42 @@
+Zombie vs HeMan game
+
+Requirements
+
+1. System will start with Daryl, an actor who plays lead role and five zombies who are enemies.
+
+2. Zombies will be present at random locations.
+
+3. Food items will be added to screen at random places time to time.
+
+4. Sword and its handle will be placed at different places.
+
+5. When Daryl collects sword and handle, he can kill a zombie with that.
+
+6. FIrst aid kit will be placed randomly and when Daryl gets that, even after colliding with zombie, he will not die.
+
+7. If zombie collides with Daryl, he will die and game will be over.
+
+8. Gun functionality is also present. When daryl collects gun, he can shoot with space bar and kill zombie.
+
+9. When all 5 zombies are killed, level one is crossed and level 2 starts which has 8 zombies. After kiiling them, level 3 starts and once all zombies are killed, Daryl wins the game.
+
+Designing:
+
+1. State pattern is implemented to maintain the game level state.
+
+2. Observer pattern is implemented to track the items collected by Daryl.
+
+3. State pattern is implemented to maintain the state of sword. There are two states, half sword state and full sword state.
+
+4. Singleton pattern is used for message so that only one instance of message is mainatined across game.
+
+5. State pattern is also used to maintain the state of human, if he is alive or dead.
+
+6. Factory patter is used to create kit, food, zombie, gun and sword.
+
+7. Facade pattern is used simplify the collection of items and provide a common interface for action being taken when items are intersected.
+
+8. Strategy pattern is implemented for humna movement and zombie movement.
+
+
+

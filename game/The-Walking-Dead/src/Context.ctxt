@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Context
+comment1.params=strategy
+comment1.target=Context(iStrategy)
+comment2.params=a
+comment2.target=void\ executeMovement(greenfoot.Actor)
+comment2.text=\r\n\ Execution\ of\ movement\r\n
+numComments=3
