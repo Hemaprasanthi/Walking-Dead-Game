@@ -4,15 +4,26 @@ Phoenix team has developed a single player game called "The walking Dead".
 
 ## Team members:
 
+Hemaprasanthi Mutyala
+
 Kriti Jar
 
 Ruchika Hazariwal
 
 Harsh Agarwal
 
-Hemaprasanthi Mutyala
-
 ## Design Patterns
+
+### Strategy Pattern: Human and Zombie movement (Hemaprasanthi Mutyala)
+iStrategy
+Context
+
+HumanMovement: handle the movement of human
+ZombieMovement: handle the movement of Zombie
+
+### Singleton Pattern: Message (Hemaprasanthi Mutyala)
+
+To make sure that single instance of message class is maintained throughout the game.
 
 ### State Design Pattern: For game Levels (Kriti Jar)
 
@@ -63,19 +74,6 @@ ZombieFactory: To create zombie
 FoodFactory: To create Food
 GunFactory: To create gun
 SwordFactory: To create parts of sword
-
-### Strategy Pattern: Human and Zombie movement (Hemaprasanthi Mutyala)
-iStrategy
-Context
-
-HumanMovement: handle the movement of human
-ZombieMovement: handle the movement of Zombie
-
-### Singleton Pattern: Message (Hemaprasanthi Mutyala)
-
-To make sure that single instance of message class is maintained throughout the game.
-
-
 
 ## XP Values: Communication
 
