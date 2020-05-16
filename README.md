@@ -1,4 +1,4 @@
-# Fall-18-202-pheonix : "The Walking Dead"
+# Fall-18-202-pheonix : "The Walking Dead Game"
 
 ## Design Patterns
 
@@ -55,7 +55,7 @@ HalfSwordState: Human has one part of sword and same is updated to message
 
 FullSwordState: Human has both parts of sword and can kill one zombie.
 
-### Factory Pattern: Creating actors
+#### Factory Pattern: Creating actors
 
 KitFactory: To create kit
 ZombieFactory: To create zombie
